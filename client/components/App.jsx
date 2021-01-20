@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 
 import { fetchFruits } from '../actions'
 
+import Projects from './Projects'
+
 export class App extends React.Component {
   state = {
     fruits: []
@@ -21,6 +23,7 @@ export class App extends React.Component {
             <li key={fruit}>{fruit}</li>
           ))}
         </ul>
+        <Projects />
       </div>
     )
   }
