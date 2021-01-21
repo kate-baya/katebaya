@@ -5,20 +5,35 @@ import { fetchProjects } from '../actions'
 
 export class Projects extends React.Component {
   state = {
-    projects: []
+    projects: [],
+    projectNav: false
   }
 
   componentDidMount () {
     this.props.dispatch(fetchProjects())
   }
 
+  handleClick = e => {
+    e.preventDefault
+    this.setState({
+      projectNav: true
+    })
+  }
+
+  handleLeave = e => {
+    e.preventDefault
+    this.setState({
+      projectNav: false
+    })
+  }
+
   render () {
     return (
-      <div className='projects'>
-        <h1>Projects</h1>
+      <div className='projects' onMouseEnter={this.handleClick} onMouseLeave={this.handleLeave}>
+        <h1><a href='#' >Projects</a></h1>
         <ul>
-          {this.props.projects.map(project => (
-            <li key={project}>{project}</li>
+          {this.state.projectNav && this.props.projects.map(project => (
+            <li key={project}><a href={project}>{project}</a></li>
           ))}
         </ul>
       </div>
@@ -27,7 +42,6 @@ export class Projects extends React.Component {
 }
 
 function mapStateToProps (state) {
-  console.log(state)
   return {
     projects: state.projects
   }

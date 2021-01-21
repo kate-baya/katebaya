@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
+import {HashRouter, Route} from 'react-router-dom'
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 
@@ -13,7 +14,9 @@ const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)))
 document.addEventListener('DOMContentLoaded', () => {
   render(
     <Provider store={store}>
-      <App />
+      <HashRouter history={browserHistory}>
+      <Route path='/' component={App} />
+      </HashRouter>
     </Provider>,
     document.getElementById('app')
   )
