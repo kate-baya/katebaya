@@ -1,6 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@charset "utf-8";
+@import '../../node_modules/bulma/bulma.sass';
 
-html, 
-body {
-  font-family: 'Montserrat', sans-serif;
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: pink;
+$white: #f0f0f0;
+$beige-light: #D0D1CD;
+$black: #1d1c1c;
+$black-lighter: #252424;
+$whiteSmoke: whitesmoke;
+$smokierWhite: rgb(223, 223, 223);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $white;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$body-color: $whiteSmoke;
+$subtitle-color: $smokierWhite;
+$text: $smokierWhite;
+
+// Update some of Bulma's component variables
+$body-background-color: $black;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+$title-color: $whiteSmoke;
+$navbar-item-color: $white;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-hover-color: $pink;
+
+$navbar-dropdown-item-hover-background-color: transparent;
+$navbar-dropdown-item-hover-color: $pink;
+$navbar-dropdown-background-color: $black-lighter;
+
+$text-strong:$smokierWhite;
+$content-heading-color: $smokierWhite;
+
+.aboutMe {
+  img {
+    border-radius: 12px;
+    width: 30rem;
+  }
 }
+
+.contact {
+  .first {
+    text-align: right;
+  }
+  .lineSpace {
+    background-color: #f0f0f0
+  }
+}
+
+.border {
+  border-left: #d0d1cd70 solid;
+}
+
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass";
+
+
