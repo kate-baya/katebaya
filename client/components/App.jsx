@@ -13,9 +13,9 @@ export class App extends React.Component {
   render() {
     return (
       <Router>
-        <section className="hero is-fullheight">
-          <div className="hero-head">
             <Nav />
+        <section className="hero is-fullheight-with-navbar">
+          <div className="hero-head">
           </div>
           <div className="hero-body  has-text-justified">
               <Route path='/contact' component={Contact} />

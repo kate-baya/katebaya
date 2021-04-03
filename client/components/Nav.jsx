@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom'
 
 export default function Nav() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to='/' className="navbar-item is-rounded">
           <img className='is-rounded' src="../images/cake.png" height="28" />
         </Link>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>

@@ -1,10 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 export default function About () {
   return (
     <div className='aboutMe container'>
-      <h1 className='title has-text-centered'>A Little About Myself</h1>
+      <h1 className='title space has-text-centered'>A Little About Myself</h1>
       <div className='columns is-centered'>
         <div className='column is-two-fifths'>
             <img className='' src='../images/kate.jpeg' />
