@@ -39,7 +39,7 @@ export default function Wip() {
                   <img className='first' src='../images/star.png' />
                 </figure>
               </div>
-              <div className='column'>
+              <div className='column' id='devHub'>
                 <h3>Dev-Hub</h3>
                 <p>An online blog platform with a focus on project specific blogs for new developers to learn and organise their thoughts.</p>
                 <div className='border'>
