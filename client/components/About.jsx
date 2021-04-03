@@ -3,7 +3,9 @@ import React from 'react'
 export default function About () {
   return (
     <div className='aboutMe container'>
-      <h1 className='title space has-text-centered'>A Little About Myself</h1>
+      <div className='columns is-centered is-two-thirds'>
+        <div className='column'>
+      <h1 className='title has-text-centered'>A Little About Myself</h1>
       <div className='columns is-centered'>
         <div className='column is-two-fifths'>
             <img className='' src='../images/kate.jpeg' />
@@ -20,6 +22,8 @@ export default function About () {
          <p>Aside from coding, I love muisc and snowboarding. I'm a drummer and music producer and try to head to the skii field when I have spare time. </p>
          </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   )

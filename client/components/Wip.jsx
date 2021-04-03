@@ -6,7 +6,7 @@ export default function Wip() {
       <div className='content'>
         <div className='columns'>
           <div className='column '>
-            <h1 className='has-text-centered space title'>Work In Progress</h1>
+            <h1 className='has-text-centered title space'>Work In Progress</h1>
             <div className='columns'>
               <div className='column is-narrow'>
                 <figure className="image is-48x48">

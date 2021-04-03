@@ -53,6 +53,9 @@ $content-heading-color: $smokierWhite;
     border-radius: 12px;
     width: 30rem;
   }
+  h1 {
+    margin-bottom: 4rem;
+  }
 }
 
 .first {
@@ -67,7 +70,7 @@ $content-heading-color: $smokierWhite;
 
 .wip {
   h1 {
-    padding-top: 1.5rem;
+    padding-top: 3rem;
     padding-bottom: 3.5rem;
   }
   .padding {
@@ -87,7 +90,7 @@ $content-heading-color: $smokierWhite;
 
 .updates {
     padding-top: 1.5rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 5rem;
     h3 {
       padding-left: 1rem;
     }
