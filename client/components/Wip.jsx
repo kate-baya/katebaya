@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Wip() {
+export default function Wip () {
   return (
     <div className='wip container is-max-desktop'>
       <div className='block'>

@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Nav() {
-
-
+export default function Nav () {
   const burgerToggle = () => {
     const navbarMenue = document.querySelector('#nav-links')
-    navbarMenue.classList.toggle('is-active');
+    navbarMenue.classList.toggle('is-active')
   }
 
   return (

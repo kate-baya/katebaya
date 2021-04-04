@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Updates() {
+export default function Updates () {
   return (
     <div className='container is-max-desktop'>
       <div className='columns'>

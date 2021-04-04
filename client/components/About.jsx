@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About() {
+export default function About () {
   return (
     <div className='aboutMe container'>
       <div className='columns is-centered is-two-thirds'>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 
-export default function Home() {
+export default function Home () {
   const [state, setState] = useState({
     gif: '../images/wavingDotsStill.jpg'
   })
@@ -20,10 +19,10 @@ export default function Home() {
         <div className='column'>
           <p className="title">
             Hi there! My name is Kate
-            </p>
+          </p>
           <p className="subtitle">
             I'm a fullstack developer
-            </p>
+          </p>
           <p>I'm always looking for new projects to contribute to.</p>
         </div>
 
