@@ -1,11 +1,5 @@
 # Fullstack boilerplate
 
-This repo includes:
+This is my repo for my personal website. I will be updating this to reflect changes going on in my work/coding life. 
 
-* a single, simple API endpoint
-* a single React component
-* an example database module
-* an API client module
-* configuration for Jest and Enzyme (including JSDOM)
-* configuration for server-side debugging in VS Code
-* a single client-side test
+I have used React to create this site and have styled using Bulma and Sass. This website is a way for me to develop my front-end and design skills.
