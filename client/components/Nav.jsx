@@ -2,13 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Nav() {
-  const burgerToggle = (e) => {
-    e.preventDefault
-    const burgerIcon = document.querySelector('#burger')
+
+
+  const burgerToggle = () => {
     const navbarMenue = document.querySelector('#nav-links')
-    burgerIcon.addEventListener('click', () => {
-      navbarMenue.classList.toggle('is-active');
-    })
+    navbarMenue.classList.toggle('is-active');
   }
 
   return (
@@ -18,7 +16,7 @@ export default function Nav() {
           <img className='is-rounded' src="../images/cake.png" height="28" />
         </Link>
 
-        <a role="button" id='burger' onClick={burgerToggle} className="navbar-burger" aria-label="menu" aria-expanded="false">
+        <a role="button" onClick={burgerToggle} className="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
