@@ -24,7 +24,7 @@ export default function Nav() {
       </div>
 
       <div id="nav-links" className="navbar-menu">
-        <div className="navbar-start">
+        <div className="navbar-start is-size-5">
           <Link to='/about' className="navbar-item">
             About
           </Link>

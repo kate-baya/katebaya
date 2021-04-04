@@ -4,10 +4,10 @@ export default function Updates() {
   return (
     <div className='container is-max-desktop'>
         <div className='columns'>
-          <div className='column '>
+          <div className='column'>
             <div className='updates has-text-centered'>
             <h1 className='title is-2'>Updates</h1>
-            <p>My thoughts, progression & learning</p>
+            <p className='subtitle'>My thoughts, progression & learning</p>
             </div>
             <div className='columns'>
               <div className='column is-narrow'>
